@@ -25,7 +25,9 @@ public class AgentClientHeartbeatHandler extends SimpleChannelInboundHandler {
         LOGGER.info("receive message :"+msg);
     }
 
+    public void test(){
 
+    }
 
 
 }
