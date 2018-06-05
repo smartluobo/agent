@@ -9,13 +9,10 @@ import com.coreos.jetcd.data.KeyValue;
 import com.coreos.jetcd.kv.GetResponse;
 import com.coreos.jetcd.options.GetOption;
 import com.coreos.jetcd.options.PutOption;
-import com.coreos.jetcd.options.WatchOption;
 import com.coreos.jetcd.watch.WatchEvent;
-import com.coreos.jetcd.watch.WatchResponse;
 import com.smartluobo.mesh.agent.constant.Constant;
 import com.smartluobo.mesh.agent.node.NodeInfo;
 import com.smartluobo.mesh.agent.repositry.ServiceRepositry;
-import com.sun.xml.internal.ws.client.sei.ResponseBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
